@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  form(action="/register" method="post")
+    div.input
+        span.label username
+        input(type="text", name="userName")
+    div.input
+      span.label email
+      input(type="email", name="email")
+    div.input
+      span.label country
+      input(type="text", name="country")
+    div.input
+      span.label password
+      input(type="password", name="password")
+    div.actions
+        input(type="submit", value="register")
+
+  form(action="/login" method="post")
+    div.input
+        span.label username
+        input(type="text", name="userName")
+    div.input
+      span.label password
+      input(type="password", name="password")
+    div.actions
+        input(type="submit", value="Login")
