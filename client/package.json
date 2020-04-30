@@ -14,7 +14,7 @@
     "core-js": "^3.4.4",
     "country-list": "^2.2.0",
     "emoji-mart-vue": "^2.6.6",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.16.0",
     "socket.io-client": "^2.3.0",
     "vue": "^2.6.10",
